@@ -1,0 +1,9 @@
+version: "3.5"
+
+services:
+  hackersfriend:
+    container_name: hackersfriend
+    build:
+      context: .
+    ports:
+      - "8080:8080"
